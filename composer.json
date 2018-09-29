@@ -14,12 +14,13 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.1.0",
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "bizley/podium": "^0.7",
-        "yiister/yii2-gentelella": "~1.0"
+        "yiister/yii2-gentelella": "~1.0",
+        "yiisoft/yii2-debug": "^2.0"
     },
     "config": {
         "process-timeout": 1800
@@ -46,5 +47,8 @@
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0"
     }
 }

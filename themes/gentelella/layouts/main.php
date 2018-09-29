@@ -35,7 +35,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
 
         <?= $this->render('left.php') ?>
 
-        <?= $this->render('header.php') ?>        
+        <?= $this->render('header.php') ?>   
 
         <!-- page content -->
         <div class="right_col" role="main">
