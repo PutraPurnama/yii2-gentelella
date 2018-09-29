@@ -54,11 +54,17 @@ git clone https://github.com/wlnoor/yii2-gentelella.git
 composer install
 ~~~
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
+Now you should be able to access the application through the following URL, assuming `yii2-gentelella` is the directory
 directly under the Web root.
 
 ~~~
 http://localhost/yii2-gentelella/web/
+~~~
+
+Or you can use `php yii serve` command in the directory directly under aplication.
+
+~~~
+http://localhost:8080
 ~~~
 
 VIEW
