@@ -30,8 +30,7 @@
                     [
                         "items" => [
                             ["label" => "Home", "url" => "/", "icon" => "home"],
-                            ["label" => "Layout", "url" => ["site/layout"], "icon" => "files-o"],
-                            ["label" => "Error page", "url" => ["site/error-page"], "icon" => "close"],
+                            ["label" => "Universitas", "url" => ["universitas/"], "icon" => "bank"],
                             [
                                 "label" => "Widgets",
                                 "icon" => "th",

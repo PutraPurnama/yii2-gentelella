@@ -71,7 +71,7 @@ if (YII_ENV_DEV) {
             'crud' => [
                 'class' => 'yii\gii\generators\crud\Generator',
                 'templates' => [
-                    'Adminlte' => '@app/themes/gentelella/gii/crud',
+                    'Gantelella' => '@app/themes/gentelella/gii/crud',
                 ]
             ],
         ],
